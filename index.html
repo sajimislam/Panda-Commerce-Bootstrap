@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Panda Commerce</title>
+    <!--custom styles-->
+    <link rel="stylesheet" href="CSS-css/style.css">
 </head>
 
 <body>
@@ -40,20 +42,21 @@
                 </div>
             </div>
         </nav>
-        <!--images silder-->
+
+        <!--images silder carousel-->
         <div class="container my-5" id="Home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
 
-                        <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
+                        <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>Cool Dude Headphone</h1>
                                 <p>Headphones are a pair of small loudspeaker drivers worn on or around the head over a
                                     user's ears. They are electroacoustic transducers, which convert an electrical
                                     signal to a corresponding sound.</p>
                                 <h1>$420</h1>
-                                <button class="btn btn-warning">Buy Now</button>
+                                <button class="panda-btn-buy-now">Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -62,14 +65,14 @@
                     </div>
 
                     <div class="carousel-item">
-                        <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
+                        <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>X-Box for your living room</h1>
                                 <p>Headphones are a pair of small loudspeaker drivers worn on or around the head over a
                                     user's ears. They are electroacoustic transducers, which convert an electrical
                                     signal to a corresponding sound.</p>
                                 <h1>$600</h1>
-                                <button class="btn btn-warning">Buy Now</button>
+                                <button class="panda-btn-buy-now">Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -78,14 +81,14 @@
                     </div>
 
                     <div class="carousel-item">
-                        <div class="row p-5 bg-info bg-gradient d-flex align-items-center">
+                        <div class="row p-5 panda-bg-info bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>Mega LCD TV for sports</h1>
                                 <p>Headphones are a pair of small loudspeaker drivers worn on or around the head over a
                                     user's ears. They are electroacoustic transducers, which convert an electrical
                                     signal to a corresponding sound.</p>
                                 <h1>$4200</h1>
-                                <button class="btn btn-warning">Buy Now</button>
+                                <button class="panda-btn-buy-now">Buy Now</button>
                             </div>
                             <div class="col-lg-5">
                                 <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -110,7 +113,7 @@
 
     <!--Catagories-->
     <main>
-        <section class="container my-5">
+        <section class="container my-5 catagories">
             <h1>Catagories</h1>
             <div class="row g-4 row-cols-lg-3">
                 <div class="col-4 col-md-6 col-12">
@@ -150,7 +153,7 @@
                             <h3>$1289</h3>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -164,7 +167,7 @@
                             <h3>$799</h3>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -179,7 +182,7 @@
                             <h3>$699</h3>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -200,7 +203,7 @@
                             <h3>$1289</h3>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -214,7 +217,7 @@
                             <h3>$799</h3>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -229,7 +232,7 @@
                             <h3>$699</h3>
                         </div>
                         <div class="m-3">
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buy-now">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -237,13 +240,13 @@
         </section>
         <!--Subscribe section-->
         <section style="height: 300px;" id="Subscribe"
-            class="container bg-info d-flex justify-content-center align-items-center rounded-3">
+            class="container panda-bg-info d-flex justify-content-center align-items-center rounded-3">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <P>Get updates on sales,specials and more.</P>
-                <input type="text" placeholder="Enter Your E-mail:" class="rounded-2">
+                <input class="form-control" type="text" placeholder="Your Email:">
                 <br>
-                <button class="btn btn-warning mt-2">SUBMIT</button>
+                <button class="panda-btn-buy-now mt-2">SUBMIT</button>
             </div>
         </section>
 
